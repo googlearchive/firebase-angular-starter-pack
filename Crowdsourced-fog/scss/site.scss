@@ -1,0 +1,192 @@
+@import "compass/css3";
+@import "compass/reset";
+
+////////////////////////////////////////////////////
+// VARS ////////////////////////////////////////////
+////////////////////////////////////////////////////
+$color-dark: #41403E;
+$color-primary: #50B1FF;
+$color-primary-dark: #408ECC;
+$color-royal: #B650FF;
+$color-light: #CCC9C3;
+$baseline: 24px;
+$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-fancy: 'Quicksand', sans-serif;
+
+////////////////////////////////////////////////////
+// GENERAL /////////////////////////////////////////
+////////////////////////////////////////////////////
+.clear {
+	clear: both;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+////////////////////////////////////////////////////
+// LAYOUT //////////////////////////////////////////
+////////////////////////////////////////////////////
+body {
+    font-family: $font-family;
+    color: $color-dark;
+    background: url('../img/sf.jpg') center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#app {
+	width: 960px;
+	margin: 0px auto;
+}
+#wrapper {
+	padding: 40px 0px;
+}
+
+
+////////////////////////////////////////////////////
+// HEADER //////////////////////////////////////////
+////////////////////////////////////////////////////
+header {
+	h1 {
+		@include opacity(.9);
+		text-align: center;
+		margin: 40px;
+		font-family: $font-fancy;
+		font-size: 70px;
+		color: #FFF;
+		font-weight: 300;
+	}
+
+	nav {
+		padding: 0px 10px;
+
+		label {
+			font-size: 13px;
+			color: $color-dark;
+			margin-bottom: 5px;
+			display: block;
+		}
+
+		input {
+			@include box-shadow(0px 1px 3px rgba(0, 0, 0, .2) inset);
+			@include border-radius(4px);
+			@include box-sizing(border-box);
+			@include opacity(.9);
+			padding: 10px;
+			border: 1px solid $color-primary;
+			width: 100%;
+			font-size: 20px;
+			color: #50B1FF;
+			font-weight: lighter;
+
+			&:active, &:focus {
+				border: 1px solid $color-primary;
+			}
+		}
+	}
+}
+
+
+////////////////////////////////////////////////////
+// SOCIAL BAR //////////////////////////////////////
+////////////////////////////////////////////////////
+#social-bar {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 50;
+}
+
+
+////////////////////////////////////////////////////
+// CARDS ///////////////////////////////////////////
+////////////////////////////////////////////////////
+.neighborhood {
+	@include box-shadow(0px 1px 2px rgba(0, 0, 0, .4));
+	@include border-radius(3px);
+	@include opacity(.9);
+	@include box-sizing(border-box);
+	background: #FFF;
+	padding: 20px;
+	margin: 10px;
+	float: left;
+	width: 220px;
+	height: 260px;
+	position: relative;
+
+	.card {
+		height: 180px;
+
+		&.foggy {
+			background: url(../img/very-foggy.png) 0px bottom no-repeat;
+		}
+		&.sunny {
+			background: url(../img/sunny.png) -20px bottom no-repeat;
+		}
+	}
+
+	#weather-count {
+		position: absolute;
+		bottom: 50px;
+		left: 40px;
+		right: 40px;
+		z-index: 1;
+		font-size: 13px;
+		color: $color-light;
+	}
+
+	h3 {
+		text-align: center;
+		font-family: $font-fancy;
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		text-align: center;
+		font-family: $font-fancy;
+		font-size: 18px;
+		margin-bottom: 20px;
+
+		&.foggy {
+			color: $color-primary;
+		}
+
+		&.sunny {
+			color: #CCA940;
+		}
+	}
+
+	.controls {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+		z-index: 1;
+	}
+}
+
+////////////////////////////////////////////////////
+// FOOTER //////////////////////////////////////////
+////////////////////////////////////////////////////
+footer {
+	@include box-shadow(0px 1px 3px rgba(0, 0, 0, .4));
+	@include opacity(.8);
+	@include border-radius(3px);
+	background: #FFF;
+	padding: 10px;
+	width: 128px;
+	height: 34px;
+	margin: 0px auto 40px auto;
+
+	a {
+		display: block;
+		width: 128px;
+		height: 34px;
+		margin: 0px auto;
+	}
+}

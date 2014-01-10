@@ -1,0 +1,12 @@
+
+#feeds > article {
+   zoom: 1;
+}
+
+#feeds > article:hover {
+   background-color: #eee;
+}
+
+#feeds > article:after {
+   visibility: hidden;
+}

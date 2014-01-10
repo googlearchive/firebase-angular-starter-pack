@@ -1,0 +1,271 @@
+{
+   "meta": {
+      "readwrite" : {
+         "url" : "http://readwrite.com",
+         "title" : "ReadWrite"
+      },
+      "lifehacker" : {
+         "url" : "http://lifehacker.com",
+         "description" : "Tips and downloads for getting things done",
+         "title" : "Lifehacker"
+      },
+      "oatmeal" : {
+         "url" : "http://theoatmeal.com/",
+         "description" : "The oatmeal tastes better than stale skittles found under the couch cushions",
+         "title" : "The Oatmeal"
+      },
+      "seth" : {
+         "url" : "http://sethgodin.typepad.com/seths_blog/",
+         "description" : "Seth Godin's riffs on marketing, respect, and the ways ideas spread.",
+         "title" : "Seth Godin's Blog on marketing, tribes and respect"
+      },
+      "hn" : {
+         "url" : "https://news.ycombinator.com/",
+         "description" : "Links for the intellectually curious, ranked by readers.",
+         "title" : "Hacker News"
+      },
+      "xkcd" : {
+         "url" : "http://xkcd.com/",
+         "description" : "xkcd.com: A webcomic of romance and math humor.",
+         "title" : "xkcd.com"
+      },
+      "gizmodo" : {
+         "url" : "http://gizmodo.com",
+         "description" : "The Gadget Guide",
+         "title" : "Gizmodo"
+      },
+      "tuaw" : {
+         "url" : "http://www.tuaw.com",
+         "description" : "TUAW - The Unofficial Apple Weblog",
+         "title" : "TUAW - The Unofficial Apple Weblog"
+      },
+      "boing" : {
+         "url" : "http://boingboing.net",
+         "description" : "Brain candy for Happy Mutants",
+         "title" : "Boing Boing"
+      },
+      "whatif" : {
+         "url" : "http://what-if.xkcd.com/",
+         "title" : "What If?"
+      },
+      "waxy" : {
+         "url" : "http://waxy.org/",
+         "description" : "Andy Baio lives here",
+         "title" : "Waxy.org"
+      },
+      "failblog" : {
+         "url" : "http://failblog.cheezburger.com/",
+         "description" : "Funny FAIL Pictures and Videos",
+         "title" : "FAIL Blog"
+      },
+      "smashing" : {
+         "url" : "http://www.smashingmagazine.com/",
+         "description" : "For Professional Web Designers and Developers",
+         "title" : "Smashing Magazine Feed"
+      },
+      "codinghorror" : {
+         "url" : "http://www.codinghorror.com/blog/",
+         "description" : "programming and human factors - Jeff Atwood",
+         "title" : "Coding Horror"
+      },
+      "reader" : {
+         "url" : "http://googlereader.blogspot.com/",
+         "description" : "News, tips and tricks from the Google reader team.",
+         "title" : "Official Google Reader Blog"
+      },
+      "penny" : {
+         "url" : "http://www.penny-arcade.com",
+         "description" : "News Fucker 5000",
+         "title" : "Penny Arcade"
+      },
+      "schneier" : {
+         "url" : "http://www.schneier.com/blog/",
+         "description" : "A blog covering security and security technology.",
+         "title" : "Schneier on Security"
+      },
+      "cnn" : {
+         "url" : "http://www.cnn.com/index.html?eref=rss_topstories",
+         "description" : "CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.",
+         "title" : "CNN.com - Top Stories"
+      },
+      "engadget" : {
+         "url" : "http://www.engadget.com",
+         "description" : "Engadget",
+         "title" : "Engadget RSS Feed"
+      },
+      "joel" : {
+         "url" : "http://www.joelonsoftware.com",
+         "description" : "Painless Software Management",
+         "title" : "Joel on Software"
+      },
+      "hyperbole" : {
+         "url" : "http://hyperboleandahalf.blogspot.com/",
+         "description" : "Blog of Indescribable Awesomeness",
+         "title" : "Hyperbole and a Half"
+      },
+      "gigaom" : {
+         "url" : "http://gigaom.com",
+         "title" : "GigaOM"
+      },
+      "gmail" : {
+         "url" : "http://gmailblog.blogspot.com/",
+         "description" : "News, tips and tricks from Google's Gmail team and friends.",
+         "title" : "Gmail Blog"
+      },
+      "marco" : {
+         "url" : "http://www.marco.org/",
+         "description" : "I’m Marco Arment, creator of Instapaper, technology writer, and coffee enthusiast.",
+         "title" : "Marco.org"
+      },
+      "smitten" : {
+         "url" : "http://smittenkitchen.com",
+         "title" : "smitten kitchen"
+      },
+      "bigpicture" : {
+         "url" : "http://www.boston.com/bigpicture/",
+         "description" : "News Stories in Photographs from the Boston Globe",
+         "title" : "The Big Picture"
+      },
+      "rands" : {
+         "url" : "http://www.randsinrepose.com/",
+         "title" : "Rands In Repose"
+      },
+      "cooltools" : {
+         "url" : "http://kk.org/cooltools",
+         "description" : "Cool tools really work. A cool tool can be any book, gadget, software, video, map, hardware, material, or website that is tried and true. All reviews on this site are written by readers who have actually used the tool and others like it. Items can be either old or new as long as they are wonderful. We only post things we like and ignore the rest. Suggestions for tools much better than what is recommended here are always wanted. Tell me what you love.",
+         "title" : "Cool Tools"
+      },
+      "nyt" : {
+         "url" : "http://www.nytimes.com/pages/national/index.html?partner=rss&emc=rss",
+         "description" : "US",
+         "title" : "NYT > U.S."
+      },
+      "slashdot" : {
+         "url" : "http://slashdot.org/",
+         "description" : "News for nerds, stuff that matters",
+         "title" : "Slashdot"
+      },
+      "qc" : {
+         "url" : "http://www.questionablecontent.net",
+         "description" : "The Official QC RSS Feed",
+         "title" : "QC RSS"
+      },
+      "alistapart" : {
+         "url" : "http://alistapart.com",
+         "description" : "Articles, columns, and blog posts for people who make web sites.",
+         "title" : "A List Apart"
+      },
+      "apartment" : {
+         "url" : "http://www.apartmenttherapy.com/feedburnermain",
+         "description" : "Saving the world, one room at a time",
+         "title" : "Apartment Therapy"
+      },
+      "smbc" : {
+         "url" : "http://www.smbc-comics.com",
+         "description" : "The Saturday Morning Breakfast Cereal Blog",
+         "title" : "Saturday Morning Breakfast Cereal (updated daily)"
+      },
+      "firebase" : {
+         "url" : "http://www.firebase.com/blog",
+         "description" : "Posts by the Firebase team about technologies, best practices, new features, and the Firebase community.",
+         "title" : "Firebase Blog"
+      },
+      "google" : {
+         "url" : "http://googleblog.blogspot.com/",
+         "description" : "Insights from Googlers into our products, technology, and the Google culture.",
+         "title" : "The Official Google Blog"
+      },
+      "verge" : {
+         "url" : "http://www.theverge.com/",
+         "title" : "The Verge -  All Posts"
+      },
+      "newsblur" : {
+         "url" : "http://blog.newsblur.com/",
+         "description" : "NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument.",
+         "title" : "The NewsBlur Blog"
+      },
+      "zenhabits" : {
+         "url" : "http://zenhabits.net",
+         "description" : "breathe",
+         "title" : "zenhabits"
+      },
+      "make" : {
+         "url" : "http://blog.makezine.com",
+         "description" : "DIY projects, how-tos, and inspiration from geeks, makers, and hackers",
+         "title" : "MAKE"
+      },
+      "bbc" : {
+         "url" : "http://www.bbc.co.uk/news/#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa",
+         "description" : "The latest stories from the Home section of the BBC News web site.",
+         "title" : "BBC News - Home"
+      },
+      "techcrunch" : {
+         "url" : "http://techcrunch.com",
+         "description" : "TechCrunch is a group-edited blog that profiles the companies, products and events defining and transforming the new web.",
+         "title" : "TechCrunch"
+      },
+      "dailywtf" : {
+         "url" : "http://thedailywtf.com/",
+         "description" : "Curious Perversions in Information Technology",
+         "title" : "The Daily WTF"
+      },
+      "kottke" : {
+         "url" : "http://kottke.org/",
+         "description" : "Jason Kottke's weblog, home of fine hypertext products",
+         "title" : "kottke.org"
+      },
+      "googleos" : {
+         "url" : "http://googlesystem.blogspot.com/",
+         "description" : "Unofficial news and tips about Google. A blog that watches Google's latest developments and the attempts to move your operating system online.",
+         "title" : "Google Operating System"
+      },
+      "fireball" : {
+         "url" : "http://daringfireball.net/",
+         "description" : "Mac and web curmudgeonry/nerdery. By John Gruber.",
+         "title" : "Daring Fireball"
+      },
+      "venturebeat" : {
+         "url" : "http://venturebeat.com",
+         "description" : "News About Tech, Money and Innovation",
+         "title" : "VentureBeat"
+      },
+      "macrumors" : {
+         "url" : "http://www.macrumors.com",
+         "description" : "the mac news you care about",
+         "title" : "MacRumors"
+      },
+      "wired" : {
+         "url" : "http://www.wired.com",
+         "description" : "Top Stories",
+         "title" : "Wired Top Stories"
+      },
+      "ars" : {
+         "url" : "http://arstechnica.com",
+         "description" : "The Art of Technology",
+         "title" : "Ars Technica"
+      }
+   },
+   "user": {
+      "demo": {
+         "demo" : {
+            "list" : {
+               "xkcd" : {
+                  "last" : 0,
+                  "title" : "xkcd.com",
+                  "id" : "xkcd"
+               },
+               "firebase" : {
+                  "last" : 0,
+                  "title" : "Firebase Blog",
+                  "id" : "firebase"
+               },
+               "techcrunch" : {
+                  "last" : 0,
+                  "title" : "TechCrunch",
+                  "id" : "techcrunch"
+               }
+            }
+         }
+      }
+   }
+}
