@@ -1,8 +1,6 @@
 # Firebase & AngularJS Starter Pack
 
-> Firebase is a scalable realtime backend that lets you build apps fast without managing servers.
-
-> _[Firebase - firebase.com](https://www.firebase.com)_
+> [Firebase](https://www.firebase.com) is a scalable realtime backend that lets you build apps fast without managing servers.
 
 ## Introduction
 This starter pack is for anyone building a web app with Angular and Firebase. Firebase's realtime data store works well with [Angular](http://angularjs.org)'s two-way data binding and content rendering. This repository includes example applications that use some of the common patterns and best practices for integrating the two technologies.
