@@ -42,12 +42,6 @@ A crowdsourced weather application for San Francisco fog.
 
 [Live Demo](http://firebase.github.io/crowdsourced-fog/)
 
-### [Firereader](/firereader)
-
-An RSS reader powered by AngularJS, Firebase, and [FeedTheFire](https://github.com/firebase/feedthefire).
-
-[Live Demo](http://www.firereader.io)
-
 ### [angularFire-seed](/angularFire-seed)
 
 An application skeleton for a typical AngularFire web app. This library allows you to quickly bootstrap realtime apps using Firebase and Angular.
