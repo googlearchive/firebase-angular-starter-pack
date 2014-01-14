@@ -44,7 +44,11 @@ A crowdsourced weather application for San Francisco fog.
 
 ### [angularFire-seed](/angularFire-seed)
 
-An application skeleton for a typical AngularFire web app. This library allows you to quickly bootstrap realtime apps using Firebase and Angular.
+An application skeleton for a typical AngularFire web app. This seed allows you to quickly bootstrap realtime apps using Firebase and Angular.
+
+### [Ionic-seed](/Ionic-seed)
+
+An application skeleton for a typical [Ionic](http://ionicframework.com/) cross-platform (Android, iOS, Web) app. This seed provides a basic Ionic application hierarchy with Firebase and Angular.
 
 ## Additional Firebase + AngularJS Resources
 
