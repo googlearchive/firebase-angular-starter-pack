@@ -42,7 +42,7 @@ A crowdsourced weather application for San Francisco fog.
 
 [Live Demo](http://firebase.github.io/crowdsourced-fog/)
 
-### [Ionic-chatroom](/Ionic-Chartoom)
+### [Ionic-Chatroom](/Ionic-Chatoom)
 
 A basic realtime chatroom application built with the [Ionic](http://ionicframework.com/) frontend framework and Firebase as the backend.
 
