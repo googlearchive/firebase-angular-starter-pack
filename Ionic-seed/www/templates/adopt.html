@@ -6,16 +6,16 @@
     <div class="list list-inset">
       <label class="item item-input">
         <span class="input-label">Your name</span>
-        <input type="text">
+        <input type="text" ng-model="adopter.name">
       </label>
       <label class="item item-input">
         <span class="input-label">Your email</span>
-        <input type="email">
+        <input type="email" ng-model="adopter.email">
       </label>
       <label class="item item-input">
-        <textarea placeholder="Any more info?"></textarea>
+        <textarea placeholder="Any more info?" ng-model="adopter.details"></textarea>
       </label>
-      <button class="button button-positive button-block">Adopt</button>
+      <button class="button button-positive button-block" ng-click="createAdopter(adopter)">Adopt</button>
     </div>
   </content>
 </view>
