@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.ionicframework.chatRoom" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ChatRoom.io</name>
+    <description>
+        Chat Room apps building on Ionic Framework app using Cordova and AngularJS
+    </description>
+    <author email="hi@3dd13.me" href="http://3dd13.me">
+        Eddie Lau
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+</widget>

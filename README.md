@@ -42,6 +42,10 @@ A crowdsourced weather application for San Francisco fog.
 
 [Live Demo](http://firebase.github.io/crowdsourced-fog/)
 
+### [Ionic-chatroom](/Ionic-Chartoom)
+
+A basic realtime chatroom application built with the [Ionic](http://ionicframework.com/) frontend framework and Firebase as the backend.
+
 ### [angularFire-seed](/angularFire-seed)
 
 An application skeleton for a typical AngularFire web app. This seed allows you to quickly bootstrap realtime apps using Firebase and Angular.

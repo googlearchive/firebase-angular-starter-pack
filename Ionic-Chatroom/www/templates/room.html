@@ -1,0 +1,39 @@
+<header-bar
+  title="room.title"
+  left-buttons="leftButtons"
+  right-buttons="rightButtons"
+  type="bar-energized"
+  align-title="center">
+</header-bar>
+
+<view title="room.title">
+  <content
+    scroll="true"
+    on-refresh="onRefresh()"
+    on-refresh-opening="onRefreshOpening(amount)"
+    refresh-complete="refreshComplete"
+    animate-nav="true"
+    >
+
+    <div ng-repeat="message in messages | orderBy:'created_at'" type="item-text-wrap" ng-show="message.content">
+      <div class="item item-body message">
+        <div class="row">
+          <div class="col col-10 author">{{message.created_by}}</div>
+          <div class="col content">{{message.content}}</div>
+          <div class="col col-10 time">{{message.created_at | dateToday: 'short' }}</div>
+        </div>
+      </div>
+    </div>
+  </content>
+
+  <div class="bar bar-footer bar-stable" id="bar-footer-message-box">
+    <div class="list list-inset">
+      <form ui-keypress="{13:'submitAddMessage($event)'}" data-ng-submit="submitAddMessage()" >
+        <label class="item item-input">
+          <input type="text" placeholder="your message ..." data-ng-model="newMessage">
+          <button class="button button-positive">Send</button>
+        </label>
+      </form>
+    </div>
+  </div>
+</view>

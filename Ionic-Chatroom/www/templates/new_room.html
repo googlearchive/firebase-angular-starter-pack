@@ -1,0 +1,26 @@
+<view>
+    <header-bar
+                title="'Create a Room'"
+                left-buttons="leftButtons"
+                right-buttons="rightButtons"
+                type="bar-energized"
+                align-title="center">
+    </header-bar>
+    <content has-header="true">        
+        <form ui-keypress="{13:'createRoom()'}">
+            <div class="list list-inset">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Chat room name</span>
+                    <input type="text" placeholder="e.g. Homework Discussion" ng-model="newRoomName">
+                </label>                  
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">Chat room description</span>              
+                    <input type="text" placeholder="e.g. How to do recursion" ng-model="newRoomDescription" >
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-full button-positive" ng-click="createRoom(newRoomName, newRoomDescription)">Submit</button>
+            </div>
+        </form>
+    </content>
+</view>

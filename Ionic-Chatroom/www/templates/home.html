@@ -1,0 +1,17 @@
+<header-bar
+  title="'Home'"
+  left-buttons="leftButtons"
+  right-buttons="rightButtons"
+  type="bar-energized"
+  align-title="center">
+</header-bar>
+<view>
+  <content>
+    <list>
+      <item ng-repeat="room in rooms" type="item-text-wrap" href="#/rooms/{{room.id}}" ng-if="room.title">
+        <h3>{{room.title}}</h3>
+        <p>{{room.description}}</p>
+      </item>
+    </list>
+  </content>
+</nav-view>
