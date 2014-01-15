@@ -30,19 +30,23 @@
 
     // load all of the dependencies asynchronously.
     $script([
-        'http://static.firebase.com/v0/firebase.js',
+        'https://cdn.firebase.com/v0/firebase.js',
         'https://cdn.firebase.com/v0/firebase-simple-login.js',
-        'http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular.js'
+        'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.js'
     ], function() {
         $script([
-            'http://ajax.googleapis.com/ajax/libs/angularjs/1.2.4/angular-route.js',
-            'https://cdn.firebase.com/libs/angularfire/0.5.0/angularfire.js',
+            'https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.js',
+            'https://cdn.firebase.com/libs/angularfire/0.6.0/angularfire.js',
             'js/app.js',
             'js/config.js',
-            'js/services.js',
             'js/controllers.js',
-            'js/filters.js',
             'js/directives.js',
+            'js/filters.js',
+            'js/routes.js',
+            'js/services.js',
+            'js/service.firebase.js',
+            'js/service.login.js',
+            'js/module.routeSecurity.js',
             'js/module.waitForAuth.js'
         ], function() {
             // when all is done, execute bootstrap angular application
@@ -58,7 +62,7 @@
     <ul class="menu">
         <li><a href="#/home">home</a></li>
         <li><a href="#/chat">chat</a></li>
-        <li ng-show-auth="logout"><a href="#/login">login</a></li>
+        <li ng-show-auth="logout,error"><a href="#/login">login</a></li>
         <li ng-show-auth="login"><a href="#/account">account</a></li>
     </ul>
 
