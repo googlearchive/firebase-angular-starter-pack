@@ -10,7 +10,7 @@ describe('service', function() {
    }));
 
    it('should have FBURL beginning with https', inject(function(FBURL) {
-      expect(FBURL).toMatch(/^https:\/\/[a-zA-Z_-]+\.firebaseio\.com/i);
+      expect(FBURL).toMatch(/^https:\/\/[0-9a-zA-Z_-]+\.firebaseio\.com/i);
    }));
 
    it('should have a valid SEMVER version', inject(function(version) {
