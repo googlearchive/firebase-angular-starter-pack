@@ -1,0 +1,13 @@
+{
+    "version": "0.0.1",
+    "name": "com.bez4pieci.cookies",
+    "cordova_name": "Cookies",
+    "description": "Cordova Cookies Plugin",
+    "license": "Apache 2.0",
+    "keywords": [
+        "cordova",
+        "phonegap",
+        "cookies"
+    ],
+    "engines": []
+}

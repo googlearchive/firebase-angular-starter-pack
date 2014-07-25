@@ -1,0 +1,25 @@
+2014-07-24 22:21:05.252 ionic-demo[14741:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-24 22:21:05.288 ionic-demo[14741:70b] Unlimited access to network resources
+2014-07-24 22:21:05.298 ionic-demo[14741:70b] Fix applied for database locations?: YES
+2014-07-24 22:21:05.393 ionic-demo[14741:70b] [CDVTimer][keyboard] 0.118971ms
+2014-07-24 22:21:05.393 ionic-demo[14741:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-24 22:21:05.394 ionic-demo[14741:70b] [CDVTimer][statusbar] 0.412047ms
+2014-07-24 22:21:05.394 ionic-demo[14741:70b] [CDVTimer][TotalPluginStartup] 1.410007ms
+2014-07-24 22:21:05.571 ionic-demo[14741:70b] Resetting plugins due to page load.
+2014-07-24 22:21:05.834 ionic-demo[14741:70b] Finished load of: file:///Users/jacob/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E6FF6332-7B7F-411B-A6E3-9FBD2A01E1F1/ionic-demo.app/www/index.html
+2014-07-24 23:30:37.745 ionic-demo[15717:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-24 23:30:37.790 ionic-demo[15717:70b] Unlimited access to network resources
+2014-07-24 23:30:37.948 ionic-demo[15717:70b] [CDVTimer][keyboard] 0.069022ms
+2014-07-24 23:30:37.948 ionic-demo[15717:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-24 23:30:37.948 ionic-demo[15717:70b] [CDVTimer][statusbar] 0.437021ms
+2014-07-24 23:30:37.949 ionic-demo[15717:70b] [CDVTimer][TotalPluginStartup] 1.354992ms
+2014-07-24 23:30:38.187 ionic-demo[15717:70b] Resetting plugins due to page load.
+2014-07-24 23:30:38.622 ionic-demo[15717:70b] Finished load of: file:///Users/jacob/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E6FF6332-7B7F-411B-A6E3-9FBD2A01E1F1/ionic-demo.app/www/index.html
+2014-07-24 23:42:38.633 ionic-demo[16459:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-24 23:42:38.646 ionic-demo[16459:70b] Unlimited access to network resources
+2014-07-24 23:42:38.665 ionic-demo[16459:70b] [CDVTimer][keyboard] 0.108004ms
+2014-07-24 23:42:38.666 ionic-demo[16459:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-24 23:42:38.666 ionic-demo[16459:70b] [CDVTimer][statusbar] 0.415981ms
+2014-07-24 23:42:38.667 ionic-demo[16459:70b] [CDVTimer][TotalPluginStartup] 1.435995ms
+2014-07-24 23:42:38.771 ionic-demo[16459:70b] Resetting plugins due to page load.
+2014-07-24 23:42:39.008 ionic-demo[16459:70b] Finished load of: file:///Users/jacob/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E6FF6332-7B7F-411B-A6E3-9FBD2A01E1F1/ionic-demo.app/www/index.html
