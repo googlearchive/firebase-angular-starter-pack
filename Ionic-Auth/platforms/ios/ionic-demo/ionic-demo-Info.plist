@@ -79,7 +79,6 @@
     </array>
     <key>CFBundleShortVersionString</key>
     <string>0.0.1</string>
-
     <key>ExternalHosts</key>
     <array>
       <string>*.firebaseio.com</string>

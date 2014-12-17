@@ -16,13 +16,10 @@
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- Firebase -->
-    <script src="https://cdn.firebase.com/js/client/1.0.17/firebase.js"></script>
-
-    <!-- Firebase Simple Login -->
-    <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.0.6/firebase.js"></script>
 
     <!-- AngularFire -->
-    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
@@ -37,9 +34,9 @@
         <h1 class="title">Ionic Blank Starter</h1>
       </ion-header-bar>
 
-      <ion-content ng-controller="loginCtrl">
+      <ion-content ng-controller="LoginCtrl">
         <!-- Buttons -->
-        <button class="button button-full button-positive" ng-click="login('facebook')">Login with Facebook</button>
+        <button class="button button-full button-positive" ng-click="login()">Login with Facebook</button>
         <button class="button button-full button-outline button-assertive" ng-click="logout()">Logout</button>
 
         <!-- Logged-in user text -->

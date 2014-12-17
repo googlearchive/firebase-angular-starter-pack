@@ -23,3 +23,44 @@
 2014-07-24 23:42:38.667 ionic-demo[16459:70b] [CDVTimer][TotalPluginStartup] 1.435995ms
 2014-07-24 23:42:38.771 ionic-demo[16459:70b] Resetting plugins due to page load.
 2014-07-24 23:42:39.008 ionic-demo[16459:70b] Finished load of: file:///Users/jacob/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E6FF6332-7B7F-411B-A6E3-9FBD2A01E1F1/ionic-demo.app/www/index.html
+2014-12-17 11:54:44.038 ionic-demo[90742:3684840] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Data/Application/97E6CB60-F2F6-4F0C-A0EF-597B5C52D95E/Library/Cookies/Cookies.binarycookies
+2014-12-17 11:54:44.190 ionic-demo[90742:3684840] Multi-tasking -> Device: YES, App: YES
+2014-12-17 11:54:44.203 ionic-demo[90742:3684840] Unlimited access to network resources
+2014-12-17 11:54:44.612 ionic-demo[90742:3684840] [CDVTimer][keyboard] 0.249028ms
+2014-12-17 11:54:44.613 ionic-demo[90742:3684840] [CDVTimer][TotalPluginStartup] 0.469983ms
+2014-12-17 11:54:45.524 ionic-demo[90742:3684840] Resetting plugins due to page load.
+2014-12-17 11:54:46.388 ionic-demo[90742:3684840] Finished load of: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Bundle/Application/0092DEDD-F0E6-4FE7-A960-3160A426BBF1/ionic-demo.app/www/index.html
+2014-12-17 11:56:02.123 ionic-demo[90924:3686267] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Data/Application/A838ECDE-A622-4A1D-9C29-E84BEF9CEC41/Library/Cookies/Cookies.binarycookies
+2014-12-17 11:56:02.205 ionic-demo[90924:3686267] Multi-tasking -> Device: YES, App: YES
+2014-12-17 11:56:02.209 ionic-demo[90924:3686267] Unlimited access to network resources
+2014-12-17 11:56:02.437 ionic-demo[90924:3686267] [CDVTimer][keyboard] 0.057995ms
+2014-12-17 11:56:02.437 ionic-demo[90924:3686267] [CDVTimer][TotalPluginStartup] 0.229001ms
+2014-12-17 11:56:02.506 ionic-demo[90924:3686267] Resetting plugins due to page load.
+2014-12-17 11:56:02.652 ionic-demo[90924:3686267] Finished load of: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Bundle/Application/7D06A6DF-3A1E-4D8B-89A1-E4AAE349ED1E/ionic-demo.app/www/index.html
+2014-12-17 11:56:11.523 ionic-demo[90924:3686267] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-12-17 11:56:11.531 ionic-demo[90924:3686267] THREAD WARNING: ['InAppBrowser'] took '209.645020' ms. Plugin should use a background thread.
+2014-12-17 12:01:07.228 ionic-demo[91120:3688739] Multi-tasking -> Device: YES, App: YES
+2014-12-17 12:01:07.234 ionic-demo[91120:3688739] Unlimited access to network resources
+2014-12-17 12:01:07.489 ionic-demo[91120:3688739] [CDVTimer][keyboard] 0.074983ms
+2014-12-17 12:01:07.489 ionic-demo[91120:3688739] [CDVTimer][TotalPluginStartup] 0.230968ms
+2014-12-17 12:01:07.608 ionic-demo[91120:3688739] Resetting plugins due to page load.
+2014-12-17 12:01:07.743 ionic-demo[91120:3688739] Finished load of: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Bundle/Application/4FFDA32C-6B60-423C-8AB7-6C507B0E1F4B/ionic-demo.app/www/index.html
+2014-12-17 12:12:54.063 ionic-demo[94357:3701143] Multi-tasking -> Device: YES, App: YES
+2014-12-17 12:12:54.070 ionic-demo[94357:3701143] Unlimited access to network resources
+2014-12-17 12:12:54.310 ionic-demo[94357:3701143] [CDVTimer][keyboard] 0.054002ms
+2014-12-17 12:12:54.310 ionic-demo[94357:3701143] [CDVTimer][TotalPluginStartup] 0.241995ms
+2014-12-17 12:12:54.456 ionic-demo[94357:3701143] Resetting plugins due to page load.
+2014-12-17 12:12:54.605 ionic-demo[94357:3701143] Finished load of: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Bundle/Application/B71B5E44-D371-4C37-812D-95155CD2641F/ionic-demo.app/www/index.html
+2014-12-17 12:13:13.403 ionic-demo[94357:3701428] Terminating since there is no system app.
+2014-12-17 12:13:22.507 ionic-demo[94565:3702145] Multi-tasking -> Device: YES, App: YES
+2014-12-17 12:13:22.513 ionic-demo[94565:3702145] Unlimited access to network resources
+2014-12-17 12:13:22.747 ionic-demo[94565:3702145] [CDVTimer][keyboard] 0.050008ms
+2014-12-17 12:13:22.747 ionic-demo[94565:3702145] [CDVTimer][TotalPluginStartup] 0.194967ms
+2014-12-17 12:13:22.803 ionic-demo[94565:3702145] Resetting plugins due to page load.
+2014-12-17 12:13:22.942 ionic-demo[94565:3702145] Finished load of: file:///Users/deast/Library/Developer/CoreSimulator/Devices/2875D951-EE52-40A7-9F9E-E33E6A208639/data/Containers/Bundle/Application/387BDEA7-BA85-4D6D-9F12-76DE7A3A3A3F/ionic-demo.app/www/index.html
+2014-12-17 12:13:25.633 ionic-demo[94565:3702145] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-12-17 12:13:25.641 ionic-demo[94565:3702145] THREAD WARNING: ['InAppBrowser'] took '220.592041' ms. Plugin should use a background thread.
+2014-12-17 12:13:26.984 ionic-demo[94565:3702145] We are logged in! [object Object]
+2014-12-17 12:13:32.024 ionic-demo[94565:3702145] Setting the WebView's frame to {{0, 0}, {320, 436}}
+2014-12-17 12:13:32.029 ionic-demo[94565:3702145] THREAD WARNING: ['InAppBrowser'] took '178.571777' ms. Plugin should use a background thread.
+2014-12-17 12:13:33.007 ionic-demo[94565:3702145] We are logged in! [object Object]

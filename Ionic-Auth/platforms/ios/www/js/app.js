@@ -3,9 +3,10 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-var myApp = angular.module("starter", ["ionic", "firebase"]);
+var app = angular.module("starter", ["ionic", "firebase"]);
 
-myApp.run(function($ionicPlatform) {
+// do all the things ionic needs to get going
+app.run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -18,40 +19,64 @@ myApp.run(function($ionicPlatform) {
   });
 });
 
-myApp.controller("loginCtrl", function($scope, $rootScope, $firebase, $firebaseSimpleLogin) {
-  // Get a reference to the Firebase
-  // TODO: Replace "ionic-demo" below with the name of your own Firebase
-  var firebaseRef = new Firebase("https://ionic-demo.firebaseio.com/");
+// change this URL to your Firebase
+app.constant('FBURL', 'https://ionic-demo.firebaseio.com');
 
-  // Create a Firebase Simple Login object
-  $scope.auth = $firebaseSimpleLogin(firebaseRef);
+// constructor injection for a Firebase reference
+app.service('Root', ['FBURL', Firebase]);
 
+// create a custom Auth factory to handle $firebaseAuth
+app.factory('Auth', function($firebaseAuth, Root, $timeout, $q){
+  var auth = $firebaseAuth(Root);
+  return {
+    // helper method to login with multiple providers
+    loginWithProvider: function loginWithProvider(provider) {
+      return auth.$authWithOAuthPopup(provider);
+    },
+    // convenience method for logging in with Facebook
+    loginWithFacebook: function login() {
+      return this.loginWithProvider("facebook");
+    },
+    // wrapping the unauth function
+    logout: function logout() {
+      auth.$unauth();
+    },
+    // wrap the $onAuth function with $timeout so it processes
+    // in the digest loop.
+    onAuth: function onLoggedIn(callback) {
+      auth.$onAuth(function(authData) {
+        $timeout(function() {
+          callback(authData);
+        });
+      });
+    }
+  };
+});
+
+app.controller("LoginCtrl", function($scope, Auth) {
   // Initially set no user to be logged in
   $scope.user = null;
 
-  // Logs a user in with inputted provider
-  $scope.login = function(provider) {
-    $scope.auth.$login(provider);
+  // Logs a user in with Facebook
+  // Calls $authWithOAuthPopup on $firebaseAuth
+  // This will be processed by the InAppBrowser plugin on mobile
+  // We can add the user to $scope here or in the $onAuth fn
+  $scope.login = function scopeLogin() {
+    Auth.loginWithFacebook()
+    .then(function(authData){
+      console.log('We are logged in!', authData);
+    })
+    .catch(function(error) {
+      console.error(error);
+    });
   };
 
   // Logs a user out
-  $scope.logout = function() {
-    $scope.auth.$logout();
-  };
+  $scope.logout = Auth.logout;
 
-  // Upon successful login, set the user object
-  $rootScope.$on("$firebaseSimpleLogin:login", function(event, user) {
-    $scope.user = user;
-  });
-
-  // Upon successful logout, reset the user object
-  $rootScope.$on("$firebaseSimpleLogin:logout", function(event) {
-    $scope.user = null;
-  });
-
-  // Log any login-related errors to the console
-  $rootScope.$on("$firebaseSimpleLogin:error", function(event, error) {
-    console.log("Error logging user in: ", error);
+  // detect changes in authentication state
+  // when a user logs in, set them to $scope
+  Auth.onAuth(function(authData) {
+    $scope.user = authData;
   });
 });
-
