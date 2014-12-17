@@ -26,7 +26,7 @@ app.constant('FBURL', 'https://ionic-demo.firebaseio.com');
 app.service('Root', ['FBURL', Firebase]);
 
 // create a custom Auth factory to handle $firebaseAuth
-app.factory('Auth', function($firebaseAuth, Root, $timeout, $q){
+app.factory('Auth', function($firebaseAuth, Root, $timeout){
   var auth = $firebaseAuth(Root);
   return {
     // helper method to login with multiple providers
