@@ -20,7 +20,7 @@ app.run(function($ionicPlatform) {
 });
 
 // change this URL to your Firebase
-app.constant('FBURL', 'https://ionic-demo.firebaseio.com');
+app.constant('FBURL', 'https://<your-firebase>.firebaseio.com');
 
 // constructor injection for a Firebase reference
 app.service('Root', ['FBURL', Firebase]);
