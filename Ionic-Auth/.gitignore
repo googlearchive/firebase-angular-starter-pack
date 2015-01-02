@@ -1,1 +1,3 @@
 node_modules/
+hooks/
+platforms/ios/cordova/console.log
