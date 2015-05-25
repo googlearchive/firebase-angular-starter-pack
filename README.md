@@ -5,7 +5,7 @@
 ## Introduction
 This starter pack is for anyone building a web app with Angular and Firebase. Firebase's realtime database works well with [Angular](http://angularjs.org)'s two-way data binding and content rendering. This repository includes example applications that use some of the common patterns and best practices for integrating the two technologies.
 
-We recommend taking the tutorial on both the [Firebase](https://www.firebase.com/tutorial/) Firebase JavaScript client and [AngularJS](http://docs.angularjs.org/tutorial) before proceeding.
+We recommend taking the tutorial on both the [Firebase JavaScript client](https://www.firebase.com/tutorial/) and [AngularJS](http://docs.angularjs.org/tutorial) before proceeding.
 
 There are three key benefits to using Firebase as a backend for your Angular
 app:
