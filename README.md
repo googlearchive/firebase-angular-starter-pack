@@ -5,7 +5,7 @@
 ## Introduction
 This starter pack is for anyone building a web app with Angular and Firebase. Firebase's realtime database works well with [Angular](http://angularjs.org)'s two-way data binding and content rendering. This repository includes example applications that use some of the common patterns and best practices for integrating the two technologies.
 
-We recommend taking the tutorial on both the [Firebase](https://www.firebase.com/tutorial/) database and [AngularJS](http://docs.angularjs.org/tutorial) before proceeding.
+We recommend taking the tutorial on both the [Firebase](https://www.firebase.com/tutorial/) Firebase JavaScript client and [AngularJS](http://docs.angularjs.org/tutorial) before proceeding.
 
 There are three key benefits to using Firebase as a backend for your Angular
 app:
@@ -16,7 +16,7 @@ Since Firebase is a hosted service, your app can use the Firebase JS library to 
 
 ### Authentication
 
-Firebase [Authentication](https://www.firebase.com/docs/web/guide/user-auth.html) makes it easy to add authentication to your app via Facebook, Github, Persona, Twitter, or email / password login. If you already have your own user accounts, Firebase can integrate with your servers as well.
+Firebase [Authentication](https://www.firebase.com/docs/web/guide/user-auth.html) makes it easy to add authentication to your app via Facebook, Github, Persona, Twitter, or email / password login. If you already have your own user authentication system, Firebase can integrate with your servers as well.
 
 ### Realtime Database
 
@@ -32,7 +32,7 @@ Realtime chat written with AngularJS + Firebase.
 
 ### [Todo](/Todo)
 
-An version of the TodoMVC in AngularJS which has been modified to use Firebase as a backend. 
+An version of the TodoMVC in AngularJS which has been modified to use Firebase as a backend.
 
 [Live Demo](http://todomvc.com/labs/architecture-examples/firebase-angular/)
 
