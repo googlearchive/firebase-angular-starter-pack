@@ -61,4 +61,5 @@ An application skeleton for a typical [Ionic](http://ionicframework.com/) cross-
 * [Firebase + Angular Google Group](https://groups.google.com/forum/#!forum/firebase-angular)
 * [Firebase on StackOverflow](http://stackoverflow.com/questions/tagged/firebase)
 
-If you have any technical questions or feedback on integrating Firebase with Angular, email [support@firebase.com](mailto:support@firebase.com).
+If you have any technical questions or feedback on integrating Firebase with Angular, reach
+out to [Firebase support](https://firebase.google.com/support/).
